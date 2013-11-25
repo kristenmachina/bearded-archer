@@ -1,62 +1,67 @@
-body {
-background-color: #494d49; /*dark grey*/
-font-family: Segoe UI Light, Arial Narrow, sans-serif;
-font-size: 24px;
-font-weight: lighter;
-color: #e7f2e6; /*white*/
+html, body {
+	height: 100%;
+	background-color: #494d49; /*dark grey*/
+	font-family: Segoe UI Light, Arial Narrow, sans-serif;
+	font-size: 24px;
+	font-weight: lighter;
+	color: #e7f2e6; /*white*/
+	margin: 0px;
+	padding: 0px;
 }
-
 .header {
-height: 72px;
-margin: 0px;
-border: 1px solid #000000;
+	height: 147px;
+	margin: 0px;
+	padding: 0 20px;
 }
-
-h1 {
-font-family: Segoe UI, Arial, sans-serif;
-font-size: 72px;
-display:inline;
-}
-
-h2 {
-color: #6df261; /*green*/
-font-size: 36px;
-font-weight: lighter;
-}
-
-h3 {
-color: #6df261; /*green*/
-font-size: 30px;
-font-weight: lighter;
-}
-
 .divider {
-height: 1px;
-background-color: #e7f2e6
+	height: 1px;
+	background-color: #e7f2e6;
 }
-
+.container {
+	width: 980px;
+	height: calc(100% - 147px);
+	padding: 0 20px;
+}
+.container>div {
+	padding-top:23px;
+}
 .menu {
-float:left;
-display: inline;
-width: 200px;
-border: 1px #000000;
-background-color: #000000;
+	float: left;
+	width: 200px;
 }
-
-a {
-display: block;
-font-size: 30px;
-text-decoration: none;
-color: #e7f2e6;
-}
-
-a:hover{
-color: #6df261;
-}
-
 .content {
-float:left;
-display: inline;
-text-align: justify;
-background-color: grey;
+	width: 780px;
+	display: inline-block;
+	min-height: 100%;
+	text-align: justify;
+}
+h1 {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 72px;
+	margin: 0;
+	margin-bottom: -20px;
+	padding: 0;
+}
+h2 {
+	color: #6df261; /*green*/
+	font-size: 36px;
+	font-weight: lighter;
+	margin: 0;
+	margin-bottom: 23px;
+	padding: 0;
+}
+h3 {
+	color: #6df261; /*green*/
+	font-size: 30px;
+	font-weight: lighter;
+	margin: 0;
+}
+a {
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: #e7f2e6;
+}
+a:hover{
+	color: #6df261;
 }
