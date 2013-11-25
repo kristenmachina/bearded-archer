@@ -35,6 +35,9 @@ html, body {
 	min-height: 100%;
 	text-align: justify;
 }
+.icons {
+	width: 130px;
+}
 h1 {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 72px;
@@ -56,12 +59,42 @@ h3 {
 	font-weight: lighter;
 	margin: 0;
 }
-a {
+.links>a {
 	display: block;
 	font-size: 30px;
 	text-decoration: none;
 	color: #e7f2e6;
 }
-a:hover{
+.links>a:hover{
 	color: #6df261;
+}
+#facebook {
+	background: url("/fb-reg.png");
+}
+#deviantart {
+	background: url("/da-reg.png");
+}
+#tumblr {
+	background: url("/tu-reg.png");
+}
+#twitter {
+	background: url("/tw-reg.png");
+}
+#facebook, #deviantart, #tumblr, #twitter {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin: 2px;
+}
+#facebook:hover {
+	background: url("/fb-hover.png");
+}
+#deviantart:hover {
+	background: url("/da-hover.png");
+}
+#tumblr:hover {
+	background: url("/tu-hover.png");
+}
+#twitter:hover {
+	background: url("/tw-hover.png");
 }
