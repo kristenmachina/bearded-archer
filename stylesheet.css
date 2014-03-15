@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	background-color: #494d49; /*dark grey*/
-	font-family: Segoe UI Light, Arial Narrow, sans-serif;
+	font-family: "Segoe UI Light", Segoe UI, Arial Narrow, sans-serif;
 	font-size: 24px;
 	font-weight: lighter;
 	color: #e7f2e6; /*white*/
