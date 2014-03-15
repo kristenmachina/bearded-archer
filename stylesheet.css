@@ -63,6 +63,7 @@ h3 {
 	display: block;
 	font-size: 30px;
 	text-decoration: none;
+    transition-duration: 150ms;
 	color: #e7f2e6;
 }
 .links>a:hover{
