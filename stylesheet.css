@@ -70,16 +70,16 @@ h3 {
 	color: #6df261;
 }
 #facebook {
-	background: url("/Images/fb-reg.png");
+	background: url("/images/icons/fb-reg.png");
 }
 #deviantart {
-	background: url("/Images/da-reg.png");
+	background: url("/images/icons/da-reg.png");
 }
 #tumblr {
-	background: url("/Images/tu-reg.png");
+	background: url("/images/icons/tu-reg.png");
 }
 #twitter {
-	background: url("/Images/tw-reg.png");
+	background: url("/images/icons/tw-reg.png");
 }
 #facebook, #deviantart, #tumblr, #twitter {
 	width: 50px;
@@ -88,14 +88,14 @@ h3 {
 	margin: 2px;
 }
 #facebook:hover {
-	background: url("/Images/fb-hover.png");
+	background: url("/images/icons/fb-hover.png");
 }
 #deviantart:hover {
-	background: url("/Images/da-hover.png");
+	background: url("/images/icons/da-hover.png");
 }
 #tumblr:hover {
-	background: url("/Images/tu-hover.png");
+	background: url("/images/icons/tu-hover.png");
 }
 #twitter:hover {
-	background: url("/Images/tw-hover.png");
+	background: url("/images/icons/tw-hover.png");
 }
